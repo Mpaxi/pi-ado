@@ -5,6 +5,8 @@
  */
 package Exercicios;
 
+import java.util.Scanner;
+
 /**
  *
  * @author muril
@@ -15,7 +17,17 @@ public class Exercicio01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Scanner leitor = new Scanner(System.in);
+       Integer numero;
+       
+       System.out.println("Digite o numero");
+       numero = leitor.nextInt();
+       
+       if(numero > 100){
+           System.out.println(numero + 150);
+       }else{
+           System.out.println(numero);
+       }
     }
     
 }
