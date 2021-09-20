@@ -30,7 +30,7 @@ public class Exercicio02 {
             if ((numero1 % numero2) == 0) {
                 System.out.println("A Divisão do Numero ( " + numero1 + " ) por ( " + numero2 + " ) é exata");
             } else {
-                System.out.println("A Divisão do Numero ( " + numero1 + " ) por ( " + numero2 + " ) é exata");
+                System.out.println("A Divisão do Numero ( " + numero1 + " ) por ( " + numero2 + " ) não é exata");
             }
         }else{
             System.out.println("Divisor precisar ser maior que 0");
