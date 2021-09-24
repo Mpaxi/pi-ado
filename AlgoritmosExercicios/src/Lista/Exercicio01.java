@@ -5,6 +5,8 @@
  */
 package Lista;
 
+import java.util.Scanner;
+
 /**
  *
  * @author muril
@@ -15,7 +17,17 @@ public class Exercicio01 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
+        Integer numero1, numero2;
+
+        System.out.println("Digite o primeiro numero");
+        numero1 = entrada.nextInt();
+
+        System.out.println("Digite o segundo numero");
+        numero2 = entrada.nextInt();
+
+        System.out.println("Resultado: " + (numero1 * numero2));
+
     }
-    
+
 }
