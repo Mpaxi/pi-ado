@@ -34,7 +34,6 @@ public class Exercicio03 {
             System.out.println("Grau de obesidade, Oberso. ");
         } else {
             System.out.println("Obesidade Morbida");
-
         }
 
         leitor.close();
