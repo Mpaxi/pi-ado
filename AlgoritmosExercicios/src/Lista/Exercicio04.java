@@ -11,13 +11,13 @@ import java.util.Scanner;
  *
  * @author muril
  */
-public class Exercico03 {
+public class Exercicio04 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-                Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
         Integer numero1, numero2;
 
         System.out.println("Digite o primeiro numero");
@@ -26,7 +26,7 @@ public class Exercico03 {
         System.out.println("Digite o segundo numero");
         numero2 = entrada.nextInt();
 
-        System.out.println("Resultado: " + ((numero1 * numero1) + (numero2 * numero2)));
+        System.out.println("Resultado primeiro numero: " + (numero1 + 1) + " Resultado primeiro numero: " + (numero2 + 1));
     }
-    
+
 }
