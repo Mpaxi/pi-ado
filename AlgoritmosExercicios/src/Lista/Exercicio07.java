@@ -11,19 +11,22 @@ import java.util.Scanner;
  *
  * @author muril
  */
-public class Exercicio05 {
+public class Exercicio07 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        Integer numero1, numero2;
+        double numero1, numero2;
 
         System.out.println("Digite o primeiro numero");
-        numero1 = entrada.nextInt();
+        numero1 = entrada.nextDouble();
 
-        System.out.println("Resultado ao quadrado: " + Math.pow(numero1, 2));
+        System.out.println("Digite o segundo numero");
+        numero2 = entrada.nextDouble();
+
+        System.out.println("Resultado ao quadrado: " + Math.sqrt((Math.pow(numero1, 2 + Math.pow(numero2, 2)))));
     }
 
 }
