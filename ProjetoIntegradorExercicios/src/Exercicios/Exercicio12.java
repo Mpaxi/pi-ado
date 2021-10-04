@@ -34,7 +34,7 @@ public class Exercicio12 {
 
         do {
 
-            Collections.shuffle(mylist, new Random());
+            Collections.shuffle(mylist);
 
             for (int i = 0; i < mylist.size(); i++) {
                 switch (i) {
