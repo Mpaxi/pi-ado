@@ -23,9 +23,12 @@ public class Exercicio12 {
         Scanner leitor = new Scanner(System.in);
         String resposta;
         Boolean sair = true;
+        Integer AAA = 1;
 
         System.out.println("Cache e um tipo de : ");
+        
         ArrayList<String> mylist = new ArrayList<String>();
+        
         mylist.add("Memoria");
         mylist.add("Periferico");
         mylist.add("Celula Cerebral");
@@ -35,7 +38,7 @@ public class Exercicio12 {
         do {
 
             Collections.shuffle(mylist);
-
+                       
             for (int i = 0; i < mylist.size(); i++) {
                 switch (i) {
                     case 0:
